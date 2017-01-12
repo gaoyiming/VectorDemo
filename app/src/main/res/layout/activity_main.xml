@@ -8,21 +8,10 @@
 
     tools:context="com.enquick.mrgao.vectordemo.MainActivity">
 
- <ImageView
-     app:srcCompat="@drawable/ic_well"
-     android:layout_width="200dp"
-     android:layout_height="100dp"
-     android:layout_alignParentTop="true"
-     android:layout_centerHorizontal="true"
-     android:layout_marginTop="91dp"
-     android:id="@+id/imageView" />
-
- <ImageView
-     app:srcCompat="@drawable/ic_font"
-     android:layout_width="250dp"
-     android:layout_height="50dp"
-     android:id="@+id/imageView2"
-     android:layout_below="@+id/imageView"
-     android:layout_marginTop="20dp"
-     android:layout_centerHorizontal="true" />
+ <com.enquick.mrgao.vectordemo.WellVector
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+ <!--<com.enquick.mrgao.vectordemo.Splash-->
+     <!--android:layout_width="wrap_content"-->
+     <!--android:layout_height="wrap_content" />-->
 </RelativeLayout>
